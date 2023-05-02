@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  left: 0;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding:  20px;
+  width: 400px;
+  position: fixed;
+    z-index: 1;
+    height: 100%;
+  top: 0;
+  
+}
+
+nav select{
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav select:hover{
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+nav a:hover{
+  color: #000;
+  cursor: pointer;
+}
+
+nav a.active{
+  color: #000;
+}
+
+nav a.active:hover{
+  color: #000;
+  cursor: pointer;
+}
+
+
+
+
+
+.deals{
+    margin-left: 500px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-right: 900px;   
+    animation-name: example;
+    animation-duration: 0.2s;
+}
+
+.deals img {
+    width: 90%;
+
+  
+}
+.deals h1{
+  text-align: center;
+
+}
+
+
+@keyframes example {
+  0% {
+      background-color: black;
+      left: 500px;
+      top: 0px;
+    }
+
+            10% {
+                background-color: black;
+                left: 500px;
+                top: 0px;
+              }
+        
+        
+        
+              20% {
+                background-color: white;
+                left: 500px;
+                top: 0px;
+              }
+
+
+  
+    30% {
+      background-color: white;
+      left: 500px;
+      top: 0px;
+    }
+
+            40% {
+              background-color: black;
+              left: 500px;
+              top: 0px;
+            }
+      
+      
+      
+            50% {
+              background-color: white;
+              left: 500px;
+              top: 0px;
+            }
+  
+    60% {
+      background-color: black;
+      left: 200px;
+      top: 200px;
+    }
+
+            70% {
+              background-color: black;
+              left: 500px;
+              top: 0px;
+            }
+      
+      
+      
+            80% {
+              background-color: white;
+              left: 500px;
+              top: 0px;
+            }
+  
+    90% {
+      background-color: white;
+      left: 0px;
+      top: 200px;
+    }
+  
+    100% {
+      background-color: black;
+      left: 0px;
+      top: 0px;
+    }
+}
